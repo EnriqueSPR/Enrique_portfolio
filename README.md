@@ -49,7 +49,7 @@ A summary of my data science projects
 
 <img src="figures/hist_boxcox.png" width="600"/>
 
-<img src="figures/corr_plot.png" width="400"/>
+<img src="figures/corr.png" width="500"/>
 
 # [Project 4: tennis_match_predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
 
