@@ -26,3 +26,18 @@ A summary of my projects and experience in data science
 * Built a client facing API using flask.
 
 
+# [Data Science Rental Estimator from Houses in Madrid: End to end project](https://github.com/EnriqueSPR/house_renting_madrid)
+
+* Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
+
+* Scraped over 2000 house rent information from https://www.pisos.com/ using python and the beautifulsoup library.
+
+* Performed data cleaning steps and removed outliers.
+
+* Exploratory Data Analyses shed light into the most important parameters driving house prices in Spain. These parameters were chosen in the model building process.
+
+* Optimized Linear, Lasso, Decission Tree, Random Forest, Support Vector Regressors using GridsearchCV to find the best model.
+
+* Wrote a python flask server that uses the saved model to serve http requests.
+
+* Built a website in html, css and javascript that allows user to predict rental prices in Madrid.
