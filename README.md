@@ -59,7 +59,7 @@ A summary of my data science projects
 
 * I performed data cleaning steps and feature engineering to create information of the players form at the moment of the upcoming match.
 
-* Exploratory data analyses were carried out to get insight into the features correlation and distribution. This allowed to selectthe most relevant features for the model.
+* Exploratory data analyses were carried out to get insight into the features correlation and distribution. This allowed to select the most relevant features for the model.
 
 * I tested diferent algorithms capable of working on this classification problem:
 
