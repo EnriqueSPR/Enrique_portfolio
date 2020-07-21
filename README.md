@@ -13,6 +13,8 @@ A summary of my projects and experience in data science
 
 * Built a client facing API using flask
 
+<img src="figures/bar_subplots_ax1_ax2.png" width="600"/>
+
 # [Project 2: Data Science Price Estimator from Houses in Madrid - Project Overview](https://github.com/EnriqueSPR/house_pricing_madrid)
 
 * Created a tool that estimates prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
@@ -42,6 +44,9 @@ A summary of my projects and experience in data science
 
 * Built a website in html, css and javascript that allows user to predict rental prices in Madrid.
 
+<img src="figures/hist_boxcox.png" width="600"/>
+
+<img src="figures/corr_plot.png" width="400"/>
 
 # [Project 4: tennis_match_predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
 
@@ -60,3 +65,5 @@ A summary of my projects and experience in data science
   
 * Linear Regression models preformed better in this case, and were chosen for further tunning. 
 
+
+<img src="figures/alg_comparisson.png" width="300"/>    <img src="figures/Model_Performance.png" width="200"/>
