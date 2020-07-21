@@ -27,6 +27,9 @@ A summary of my projects and experience in data science
 
 * Built a client facing API using flask.
 
+<img src="figures/random_forest_data.png" width="400"/>
+
+<img src="figures/Prediction_Tool_Screenshot.png" width="400"/>
 
 # [Project 3: Data Science Rental Estimator from Houses in Madrid: End to end project](https://github.com/EnriqueSPR/house_renting_madrid)
 
