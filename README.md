@@ -1,5 +1,5 @@
 # Enrique_portfolio
-A summary of my projects and experience in data science
+A summary of my data science projects
 
 # [Project 1: Data Science Salary Estimator - Project Overview](https://github.com/EnriqueSPR/ds_salary_project)
 
