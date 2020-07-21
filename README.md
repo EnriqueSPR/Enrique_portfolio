@@ -26,7 +26,7 @@ A summary of my projects and experience in data science
 * Built a client facing API using flask.
 
 
-# [Data Science Rental Estimator from Houses in Madrid: End to end project](https://github.com/EnriqueSPR/house_renting_madrid)
+# [Project 3: Data Science Rental Estimator from Houses in Madrid: End to end project](https://github.com/EnriqueSPR/house_renting_madrid)
 
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
@@ -41,3 +41,22 @@ A summary of my projects and experience in data science
 * Wrote a python flask server that uses the saved model to serve http requests.
 
 * Built a website in html, css and javascript that allows user to predict rental prices in Madrid.
+
+
+# [Project 4: tennis_match_predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
+
+* The goal of this project was to create an algorithm using supervised machine learning to predict the outcome of tennis matches by taking in account information from the players form before the match.
+
+* I scrapped the data from ATP tournaments, matches and players from 1999 to 2020.
+
+* I performed data cleaning steps and feature engineering to create information of the players form at the moment of the upcoming match.
+
+* Exploratory data analyses were carried out to get insight into the features correlation and distribution. This allowed to selectthe most relevant features for the model.
+
+* I tested diferent algorithms capable of working on this classification problem:
+
+  * Linear Algorithms: Logistic Regression (LR) and Linear Discriminant Analysis (LDA).
+  * Nonlinear Algorithms: Classification and Regression Trees (CART), Support Vector Machines (SVM), Gaussian Naive Bayes (NB) and k-Nearest Neighbors (KNN).
+  
+* Linear Regression models preformed better in this case, and were chosen for further tunning. 
+
