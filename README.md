@@ -13,4 +13,16 @@ A summary of my projects and experience in data science
 
 * Built a client facing API using flask
 
+# Project 2: Data Science Price Estimator from Houses in Madrid - Project Overview
+
+* Created a tool that estimates prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
+
+* Performed data cleaning steps and removed outliers.
+
+* Exploratory Data Analyses shed light into the most important parameters driving house prices in Spain.These parameters were chosen in the model building process.
+
+* Optimized Linear, Decission Tree, and Random Forest Regressors using GridsearchCV to reach the best model.
+
+* Built a client facing API using flask.
+
 
