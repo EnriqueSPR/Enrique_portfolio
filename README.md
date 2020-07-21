@@ -1,7 +1,7 @@
 # Enrique_portfolio
 A summary of my projects and experience in data science
 
-# Project 1: Data Science Salary Estimator - Project Overview
+# [Project 1: Data Science Salary Estimator - Project Overview](https://github.com/EnriqueSPR/ds_salary_project)
 
 * Created a tool that estimates data science salaries to help data scientists negotiate their income when they get a job.
 
@@ -13,7 +13,7 @@ A summary of my projects and experience in data science
 
 * Built a client facing API using flask
 
-# Project 2: Data Science Price Estimator from Houses in Madrid - Project Overview
+# [Project 2: Data Science Price Estimator from Houses in Madrid - Project Overview](https://github.com/EnriqueSPR/house_pricing_madrid)
 
 * Created a tool that estimates prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
