@@ -70,3 +70,48 @@ A summary of my data science projects
 
 
 <img src="figures/alg_comparisson.png" width="300"/>    <img src="figures/Model_Performance.png" width="200"/>
+
+
+
+# [Project 5: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project)
+
+In this notebook I focused on analyzing covid data in an effort to better understand the main factors that drive the spread of Covid.
+
+Below I include few highlight figures.
+
+* Plots showing the number of cases per million and the number of tests per 1000 reported in each continent daily:
+
+<img src="figures/lines_cases_per_milllion_continents.png" width="300"/>   <img src="figures/new_tests_per_1000_continents.png" width="300"/>
+
+* Plots showing the top 5 countries affected in the world by cumulative cases and deaths every 2 weeks:
+
+<img src="figures/cumulative_cases_2W_top5.png" width="300"/>   <img src="figures/cumulative_deaths_2W_top5.png" width="300"/>
+
+* Plots showing the death rates, the percentage of population older than 70 and the testing rates by country:
+
+<img src="figures/perc_deaths_country.png" width="300"/><img src="figures/population_aged70_country.png" width="300"/><img src="figures/test_rates_country.png" width="300"/> 
+
+* Screenshots of the interactive plots generated with Bokeh and Plotly:
+
+<img src="figures/interactive_plot_GDP_tests.png" width="500"/>
+
+
+<img src="figures/interactive_plot_cases_deaths_px.png" width="500"/>
+
+
+### Conclusions: 
+In this exploratory data analysis of Covid Data we have extracted some valuable information on the factors driving the spread and negative impact of this virus
+* Older people seem to be more susceptible to the virus.
+* Countries with higher testing rates are controlling better the stread of covid. Scaling-up testing quickly at the beginnnig seems to be a critical factor in order to be able to control the pandemia.
+* The GDP per capita, hadwashing facilies and number of beds at hospitals seem to be critical also factors for Covid control. In fact, these variables undoubdtely greatly contribute a stronger health-care system which in turn allowed a quicker and more effective response.
+* The pandemia seems to be accelerating in the american continent, where policies have been somewhat more relaxed. The oposite tendecy is taking place in Europe. This comes to show the importance of following the advices from health authorities from the use of the mask, practicing social distancing and washing hands.
+
+### Forecast: 
+
+The low testing rates of highly populated countries such as India will make very difficult to control this virus, since it has been shown that most of the people (in particular of young age) remain assimptomatic but infectious. Hence, the countries at highest risk in the weeks to come are those:
+
+* High populated.
+* With low median-age.
+* With low testing rates.
+
+Hence, it is expected that the health impact in the coming weeks will be greatest in Colombia, South Africa, India, Brazil, Mexico, Peru and USA.
