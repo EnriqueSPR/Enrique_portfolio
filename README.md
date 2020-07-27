@@ -75,7 +75,7 @@ A summary of my data science projects
 
 # [Project 5: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project)
 
-In this notebook I focused on analyzing covid data in an effort to better understand the main factors that drive the spread of Covid.
+In this notebook I focused on analyzing covid data in an effort to better understand the main factors that drive the spread of this virus.
 
 Below I include few highlight figures.
 
