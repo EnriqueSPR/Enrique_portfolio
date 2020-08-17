@@ -93,7 +93,7 @@ Below I include few highlight figures.
 
 * Screenshots of the interactive plots generated with Bokeh and Plotly:
 
-<img src="figures/interactive_plot_GDP_tests.png" width="500"/>
+<img src="figures/Total_Deaths_Per_Million.png" width="600"/>
 
 
 <img src="figures/interactive_plot_cases_deaths_px.png" width="500"/>
