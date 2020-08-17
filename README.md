@@ -98,10 +98,6 @@ Below I include few highlight figures.
 
 <img src="figures/interactive_plot_cases_deaths_px.png" width="500"/>
 
-### Conclusions: 
-In this exploratory data analysis of Covid Data we have extracted some valuable information on the factors driving the spread and the negative impact of this virus:
-* Older people seem to be more susceptible to the virus.
-* Countries with higher testing rates are controlling better the stread of covid. Scaling-up testing quickly at the beginnnig seems to be a critical factor in order to be able to control the pandemia.
-* The pandemia seems to be accelerating in the american continent, where policies have been somewhat more relaxed. The opposite tendecy is taking place in Europe. This comes to show the importance of following the advices from health authorities from the use of the mask, practicing social distancing and washing hands.
+
 
 
