@@ -102,7 +102,11 @@ Below I include few highlight figures.
 
 Supervised Multi-classification ML problem -> Predicting wine quality
 
-In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality.
+In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
+
+Following analyses of feature distribution and data prepocessing, several classification models were trained and their performance assessed.
+For this particular case the Support Vector Classification(SCV) algorithm show to perdorm best.
+Below are some images associated to the evaluation of the SVC model against the test set.
 
  <img src="figures/matshow.png" width="200"/> <img src="figures/importance_vs_corr.png" height="250" width="450"/> <img src="figures/ROC.png" width="250"/>  
 
