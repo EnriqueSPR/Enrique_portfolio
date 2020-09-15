@@ -98,6 +98,10 @@ Below I include few highlight figures.
 
 <img src="figures/interactive_plot_cases_deaths_px.png" width="500"/>
 
+# [Project 6: Redwine Quality Predictor]
 
+Supervised Multi-classification ML problem -> Predicting wine quality
+
+In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality.
 
 
