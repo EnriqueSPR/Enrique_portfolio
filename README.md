@@ -112,7 +112,7 @@ Below are some images associated to the evaluation of the SVC model against the 
   
  <img src="figures/matshow.png" width="200"/> 
  
-  * Plot bar showing the feature importance and the correlation of each attrinute with the target:
+  * Plot bar showing the feature importance and the correlation of each attribute with the target:
   
  <img src="figures/importance_vs_corr.png" height="250" width="450"/> 
  
