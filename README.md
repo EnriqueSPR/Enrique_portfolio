@@ -108,5 +108,15 @@ Following analyses of feature distribution and data prepocessing, several classi
 For this particular case the Support Vector Classification(SCV) algorithm show to perdorm best.
 Below are some images associated to the evaluation of the SVC model against the test set.
 
- <img src="figures/matshow.png" width="200"/> <img src="figures/importance_vs_corr.png" height="250" width="450"/> <img src="figures/ROC.png" width="250"/>  
+  * Confusion Matrix Diagram:
+  
+ <img src="figures/matshow.png" width="200"/> 
+ 
+  * Plot bar showing the feature importance and the correlation of each attrinute with the target:
+  
+ <img src="figures/importance_vs_corr.png" height="250" width="450"/> 
+ 
+  * Plots of the Receiver Operating Characteristic(ROC) curves for classes 2 and 3:
+  
+ <img src="figures/ROC.png" width="250"/>  
 
