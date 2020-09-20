@@ -3,7 +3,7 @@ A summary of my data science projects
 
 
 # [Project 1: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
-Supervised ML **regression problem**
+Supervised ML **regression problem** -> Predicting house rental prices
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
 * Scraped over 2000 house rent information from https://www.pisos.com/ using python and the beautifulsoup library.
@@ -23,7 +23,7 @@ Supervised ML **regression problem**
 <img src="figures/corr.png" width="500"/>
 
 # [Project 2: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
-Supervised Multi-classification ML problem -> Predicting wine quality
+Supervised ML **Multi-classification  problem** -> Predicting wine quality
 
 In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
 
@@ -44,7 +44,7 @@ Below are some images associated to the evaluation of the SVC model against the 
  <img src="figures/ROC.png" width="250"/>  
 
 # [Project 3: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
-Supervised ML **regression problem**
+Supervised ML **regression problem** -> Predicting salary of data scientist
 
 * Created a tool that estimates data science salaries to help data scientists negotiate their income when they get a job.
 
@@ -60,7 +60,7 @@ Supervised ML **regression problem**
 
 
 # [Project 4: Data Science Price Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_pricing_madrid)
-Supervised ML **regression problem**
+Supervised ML **regression problem** -> Predicting house prices in Madrid
 
 * Created a tool that estimates prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
@@ -78,7 +78,7 @@ Supervised ML **regression problem**
 
 
 # [Project 5: tennis_match_predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
-Supervised ML **binary classification problem**
+Supervised ML **binary classification problem** -> Predicting tennis matches outcome
 
 * The goal of this project was to create an algorithm using supervised machine learning to predict the outcome of tennis matches by taking in account information from the players form before the match.
 
