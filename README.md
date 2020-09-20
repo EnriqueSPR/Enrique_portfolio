@@ -1,38 +1,9 @@
 # Enrique_portfolio
 A summary of my data science projects
 
-# [Project 1: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
 
-* Created a tool that estimates data science salaries to help data scientists negotiate their income when they get a job.
-
-* Scraped over 1000 job descriptions from glassdoor using python and selenium.
-
-* Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark.
-
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
-
-* Built a client facing API using flask
-
-<img src="figures/bar_subplots_ax1_ax2.png" width="600"/>
-
-# [Project 2: Data Science Price Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_pricing_madrid)
-
-* Created a tool that estimates prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
-
-* Performed data cleaning steps and removed outliers.
-
-* Exploratory Data Analyses shed light into the most important parameters driving house prices in Spain.These parameters were chosen in the model building process.
-
-* Optimized Linear, Decission Tree, and Random Forest Regressors using GridsearchCV to reach the best model.
-
-* Built a client facing API using flask.
-
-<img src="figures/random_forest_data.png" width="400"/>
-
-<img src="figures/Prediction_Tool_Screenshot.png" width="400"/>
-
-# [Project 3: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
-
+# [Project 1: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
+Supervised ML **regression problem**
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
 * Scraped over 2000 house rent information from https://www.pisos.com/ using python and the beautifulsoup library.
@@ -51,7 +22,63 @@ A summary of my data science projects
 
 <img src="figures/corr.png" width="500"/>
 
-# [Project 4: tennis_match_predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
+# [Project 2: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
+Supervised Multi-classification ML problem -> Predicting wine quality
+
+In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
+
+Following analyses of feature distribution and data prepocessing, several classification models were trained and their performance assessed.
+For this particular case the Support Vector Classification(SCV) algorithm show to perdorm best.
+Below are some images associated to the evaluation of the SVC model against the test set.
+
+  * Confusion Matrix Diagram:
+  
+ <img src="figures/matshow.png" width="200"/> 
+ 
+  * Plot bar showing the feature importance and the correlation of each attribute with the target:
+  
+ <img src="figures/importance_vs_corr.png" height="250" width="450"/> 
+ 
+  * Plots of the Receiver Operating Characteristic(ROC) curves for classes 2 and 3:
+  
+ <img src="figures/ROC.png" width="250"/>  
+
+# [Project 3: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
+Supervised ML **regression problem**
+
+* Created a tool that estimates data science salaries to help data scientists negotiate their income when they get a job.
+
+* Scraped over 1000 job descriptions from glassdoor using python and selenium.
+
+* Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark.
+
+* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
+
+* Built a client facing API using flask
+
+<img src="figures/bar_subplots_ax1_ax2.png" width="600"/>
+
+
+# [Project 4: Data Science Price Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_pricing_madrid)
+Supervised ML **regression problem**
+
+* Created a tool that estimates prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
+
+* Performed data cleaning steps and removed outliers.
+
+* Exploratory Data Analyses shed light into the most important parameters driving house prices in Spain.These parameters were chosen in the model building process.
+
+* Optimized Linear, Decission Tree, and Random Forest Regressors using GridsearchCV to reach the best model.
+
+* Built a client facing API using flask.
+
+<img src="figures/random_forest_data.png" width="400"/>
+
+<img src="figures/Prediction_Tool_Screenshot.png" width="400"/>
+
+
+# [Project 5: tennis_match_predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
+Supervised ML **binary classification problem**
 
 * The goal of this project was to create an algorithm using supervised machine learning to predict the outcome of tennis matches by taking in account information from the players form before the match.
 
@@ -73,9 +100,9 @@ A summary of my data science projects
 
 
 
-# [Project 5: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project)
+# [Project 6: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project)
 
-In this notebook I focused on analyzing covid data in an effort to better understand the main factors that drive the spread of this virus.
+In this notebook I focused on analyzing covid data in an effort to better understand the main factors that drive the spread of this virus and to forecast the evolution of the pandemia.
 
 Below I include few highlight figures.
 
@@ -98,25 +125,5 @@ Below I include few highlight figures.
 
 <img src="figures/interactive_plot_cases_deaths_px.png" width="500"/>
 
-# [Project 6: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
 
-Supervised Multi-classification ML problem -> Predicting wine quality
-
-In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
-
-Following analyses of feature distribution and data prepocessing, several classification models were trained and their performance assessed.
-For this particular case the Support Vector Classification(SCV) algorithm show to perdorm best.
-Below are some images associated to the evaluation of the SVC model against the test set.
-
-  * Confusion Matrix Diagram:
-  
- <img src="figures/matshow.png" width="200"/> 
- 
-  * Plot bar showing the feature importance and the correlation of each attribute with the target:
-  
- <img src="figures/importance_vs_corr.png" height="250" width="450"/> 
- 
-  * Plots of the Receiver Operating Characteristic(ROC) curves for classes 2 and 3:
-  
- <img src="figures/ROC.png" width="250"/>  
 
