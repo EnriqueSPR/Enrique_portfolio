@@ -75,7 +75,7 @@ Supervised ML **regression problem** -> Predicting house prices in Madrid
 
 * Built a client facing API using flask.
 
-<img src="figures/random_forest_data.png" width="400"/>
+<img src="figures/random_forest_data.png" width="600"/>
 
 <img src="figures/Prediction_Tool_Screenshot.png" width="400"/>
 
