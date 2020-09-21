@@ -55,7 +55,7 @@ Supervised ML **regression problem** -> Predicting salary of data scientist
 
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark.
 
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
+* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model(MAE=12.8 with RFR).
 
 * Built a client facing API using flask
 
