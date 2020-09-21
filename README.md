@@ -33,11 +33,11 @@ Below are some images associated to the evaluation of the SVC model against the 
 
   * Confusion Matrix Diagram:
   
- <img src="figures/matshow.png" width="200"/> 
+ <img src="figures/corr_mat.png" width="300"/> 
  
   * Plot bar showing the feature importance and the correlation of each attribute with the target:
   
- <img src="figures/importance_vs_corr.png" height="250" width="450"/> 
+ <img src="figures/importance_vs_corr_RFC.png" height="250" width="450"/> 
  
   * Plots of the Receiver Operating Characteristic(ROC) curves for classes 2 and 3:
   
