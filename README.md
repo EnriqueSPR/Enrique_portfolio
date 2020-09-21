@@ -14,7 +14,7 @@ Supervised ML **regression problem** -> Predicting house rental prices
 
 * Optimized Linear, Lasso, Decission Tree, Random Forest, Support Vector Regressors using GridsearchCV to find the best model.
 
-* SVR was chosen as the most promissing and tuned using GridSearchCV, achieving a score of **0.84** against the test set.
+* SVR was chosen as the most promissing and tuned using GridSearchCV, achieving a score of **0.84** accuracy against the test set.
 
 * Wrote a python flask server that uses the saved model to serve http requests.
 
@@ -32,7 +32,7 @@ In this project we will tackle a multi-classification problem using supervised M
 Following analyses of feature distribution and data prepocessing, several classification models were trained and their performance assessed.
 Three good performing models(SVC, RFC and ETC) were chosed, tuned and ensembled by using sorf voting classifier.  
 This resukted in a balanced model that performed satisfactorily in both the test and training sets.
-Below are some images associated to the evaluation of such model against the test set(0.63 accuracy).
+Below are some images associated to the evaluation of such model against the test set(**0.63 accuracy**).
 
   * Confusion Matrix Diagram:
   
