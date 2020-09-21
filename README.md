@@ -14,6 +14,8 @@ Supervised ML **regression problem** -> Predicting house rental prices
 
 * Optimized Linear, Lasso, Decission Tree, Random Forest, Support Vector Regressors using GridsearchCV to find the best model.
 
+* SVR was chosen as the most promissing and tuned using GridSearchCV, achieving a score of **0.84** against the test set.
+
 * Wrote a python flask server that uses the saved model to serve http requests.
 
 * Built a website in html, css and javascript that allows user to predict rental prices in Madrid.
@@ -28,8 +30,9 @@ Supervised ML **Multi-classification  problem** -> Predicting wine quality
 In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
 
 Following analyses of feature distribution and data prepocessing, several classification models were trained and their performance assessed.
-For this particular case the Support Vector Classification(SCV) algorithm show to perdorm best.
-Below are some images associated to the evaluation of the SVC model against the test set.
+Three good performing models(SVC, RFC and ETC) were chosed, tuned and ensembled by using sorf voting classifier.  
+This resukted in a balanced model that performed satisfactorily in both the test and training sets.
+Below are some images associated to the evaluation of such model against the test set(0.63 accuracy).
 
   * Confusion Matrix Diagram:
   
@@ -68,7 +71,7 @@ Supervised ML **regression problem** -> Predicting house prices in Madrid
 
 * Exploratory Data Analyses shed light into the most important parameters driving house prices in Spain.These parameters were chosen in the model building process.
 
-* Optimized Linear, Decission Tree, and Random Forest Regressors using GridsearchCV to reach the best model.
+* Optimized Linear, Decission Tree, and Random Forest Regressors using GridsearchCV to reach the best model (**0.89 for RFR**).
 
 * Built a client facing API using flask.
 
