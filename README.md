@@ -32,7 +32,7 @@ In this project we will tackle a multi-classification problem using supervised M
 Following analyses of feature distribution and data prepocessing, several classification models were trained and their performance assessed.
 Three good performing models(SVC, RFC and ETC) were chosed, tuned and ensembled by using sorf voting classifier.  
 This resukted in a balanced model that performed satisfactorily in both the test and training sets.
-Below are some images associated to the evaluation of such model against the test set(**0.63 accuracy**).
+Below are some images associated to the evaluation of such model against the test set(**0.64 accuracy**).
 
   * Confusion Matrix Diagram:
   
