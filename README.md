@@ -126,7 +126,7 @@ Below I include few highlight figures.
 <img src="figures/Total_Deaths_Per_Million.png" width="600"/>
 
 
-<img src="figures/interactive_plot_cases_deaths_px.png" width="500"/>
+<img src="figures/interactive_chart_cases_deaths.png" width="500"/>
 
 
 
