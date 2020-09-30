@@ -127,10 +127,6 @@ In this notebook I focused on analyzing covid data in an effort to better unders
 
 Below I include few highlight figures.
 
-* Plots showing the number of cases per million and the number of tests per 1000 reported in each continent daily:
-
-<img src="figures/lines_cases_per_milllion_continents.png" width="300"/>   <img src="figures/new_tests_per_1000_continents.png" width="300"/>
-
 * Plots showing the top 5 countries affected in the world by cumulative cases and deaths every 2 weeks:
 
 <img src="figures/cumulative_cases_2W_top5.png" width="300"/>   <img src="figures/cumulative_deaths_2W_top5.png" width="300"/>
