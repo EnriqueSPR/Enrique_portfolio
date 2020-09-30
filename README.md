@@ -98,7 +98,7 @@ Supervised ML **regression problem** -> Predicting house prices in Madrid
 <img src="figures/Prediction_Tool_Screenshot.png" width="400"/>
 
 
-# [Project 6: tennis_match_predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
+# [Project 6: Tennis Match Predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
 Supervised ML **binary classification problem** -> Predicting tennis matches outcome
 
 * The goal of this project was to create an algorithm using supervised machine learning to predict the outcome of tennis matches by taking in account information from the players form before the match.
