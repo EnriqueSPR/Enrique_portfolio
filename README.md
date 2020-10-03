@@ -2,7 +2,49 @@
 A summary of my data science projects
 
 
-# [Project 1: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
+# [Project 1: Bike Usage Estimator](https://github.com/EnriqueSPR/Bicycle_Rental_Company)
+Supervised ML **regression problem** -> Predicting bike usage at a given day for a bike company.
+
+**Description**: The aim is to use the [data from the past 10 years](https://www.capitalbikeshare.com/system-data) to develop a model that can predict bicycle usage (Number of trips and total time ride usage) at a given day.
+
+* **Combined and prepared data** into a single file containing the number of trips and total time usage for each day a total period of 10 years.
+* Further complemented this data with [weather data](https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precipitation_data_for_the_U_S_cities/7890488)   (temperature and precipitation) 
+and [US federal holidays](https://docs.opendata.aws/noaa-ghcn-pds/readme.html).
+
+* **Exploratory Data Analyses** were carried out to study the patterns on bike usage. This allowed to select the most relevant attributes for modelling (See figures below)
+
+* Study **model performace** for a list of algorithms. 
+For this cross-validation was performed and negative mean squared error was used as metric of model performance.
+
+* Fine **tuned** the most promissing models by using GridSearchCV. Two models, **GradientBoostRegressor** and **ExtraTreesRegressor**,  were trained to predict the total bike usage and number of trips respectively. Both models achieved a score of **0.90**.
+
+* Created a **pickle** file for the machine learning model.
+
+<img src="figures/pattern_year_temperature.png" width="1000"/>
+
+<img src="figures/Pair-kde.png" width="1000"/>
+
+
+# [Project 2: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
+Supervised ML **Multi-classification  problem** -> Predicting wine quality
+
+In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
+
+Following analyses of feature distribution and data prepocessing, several classification models were trained and their performance assessed.
+Three good performing models(SVC, RFC and ETC) were chosed, tuned and ensembled by using sorf voting classifier.  
+This resukted in a balanced model that performed satisfactorily in both the test and training sets.
+Below are some images associated to the evaluation of such model against the test set(**0.64 accuracy**).
+
+  * Confusion Matrix Diagram and ROC curves for classes 2 and 3:
+  
+ <img src="figures/corr_mat.png" width="300"/>  <img src="figures/ROC_curves.png" width="500"/> 
+ 
+   * Plot bar showing the feature importance and the correlation of each attribute with the target:
+  
+ <img src="figures/importance_vs_corr_RFC.png" height="250" width="450"/> 
+
+
+# [Project 3: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
 Supervised ML **regression problem** -> Predicting house rental prices
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
@@ -24,45 +66,6 @@ Supervised ML **regression problem** -> Predicting house rental prices
 
 <img src="figures/corr.png" width="500"/>
 
-# [Project 2: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
-Supervised ML **Multi-classification  problem** -> Predicting wine quality
-
-In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
-
-Following analyses of feature distribution and data prepocessing, several classification models were trained and their performance assessed.
-Three good performing models(SVC, RFC and ETC) were chosed, tuned and ensembled by using sorf voting classifier.  
-This resukted in a balanced model that performed satisfactorily in both the test and training sets.
-Below are some images associated to the evaluation of such model against the test set(**0.64 accuracy**).
-
-  * Confusion Matrix Diagram and ROC curves for classes 2 and 3:
-  
- <img src="figures/corr_mat.png" width="300"/>  <img src="figures/ROC_curves.png" width="500"/> 
- 
-   * Plot bar showing the feature importance and the correlation of each attribute with the target:
-  
- <img src="figures/importance_vs_corr_RFC.png" height="250" width="450"/> 
-
-# [Project 3: Bike Usage Estimator](https://github.com/EnriqueSPR/Bicycle_Rental_Company)
-Supervised ML **regression problem** -> Predicting bike usage at a given day for a bike company.
-
-**Description**: The aim is to use the [data from the past 10 years](https://www.capitalbikeshare.com/system-data) to develop a model that can predict bicycle usage (Number of trips and total time ride usage) at a given day.
-
-* **Combined and prepared data** into a single file containing the number of trips and total time usage for each day a total period of 10 years.
-* Further complemented this data with [weather data](https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precipitation_data_for_the_U_S_cities/7890488)   (temperature and precipitation) 
-and [US federal holidays](https://docs.opendata.aws/noaa-ghcn-pds/readme.html).
-
-* **Exploratory Data Analyses** were carried out to study the patterns on bike usage. This allowed to select the most relevant attributes for modelling (See figures below)
-
-* Study **model performace** for a list of algorithms. 
-For this cross-validation was performed and negative mean squared error was used as metric of model performance.
-
-* Fine **tuned** the most promissing models by using GridSearchCV. Two models, **GradientBoostRegressor** and **ExtraTreesRegressor**,  were trained to predict the total bike usage and number of trips respectively. Both models achieved a score of **0.90**.
-
-* Created a **pickle** file for the machine learning model.
-
-<img src="figures/pattern_year_temperature.png" width="1000"/>
-
-<img src="figures/Pair-kde.png" width="1000"/>
 
 # [Project 4: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
 Supervised ML **regression problem** -> Predicting salary of data scientist
@@ -118,7 +121,6 @@ Supervised ML **binary classification problem** -> Predicting tennis matches out
 
 
 <img src="figures/alg_comparisson.png" width="300"/>    <img src="figures/Model_Performance.png" width="200"/>
-
 
 
 # [Project 7: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project)
