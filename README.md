@@ -45,7 +45,7 @@ Below are some images associated to the evaluation of such model against the tes
  
  Finally I built a Neural Network(NN) to see how it would perform for this particular problem. As It can be seen in the confussion matrixes below, the ensemble model(left) performed better thatn the NN (Rigth). Not surprising, since NN often show their potential in large datasets.
  
-  <img src="figures/corr_mat.png" width="400"/> <img src="figures/corr_mat_NN.png" width="400"/> 
+  <img src="figures/corr_mat_ensemble.png" width="400"/> <img src="figures/corr_mat_NN.png" width="400"/> 
 
 
 # [Project 3: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
