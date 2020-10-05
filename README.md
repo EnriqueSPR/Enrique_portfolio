@@ -35,13 +35,17 @@ Three good performing models(SVC, RFC and ETC) were chosed, tuned and ensembled 
 This resukted in a balanced model that performed satisfactorily in both the test and training sets.
 Below are some images associated to the evaluation of such model against the test set(**0.64 accuracy**).
 
-  * Confusion Matrix Diagram and ROC curves for classes 2 and 3:
+  * ROC curves for classes 2 and 3:
   
- <img src="figures/corr_mat.png" width="300"/>  <img src="figures/ROC_curves.png" width="500"/> 
+ <img src="figures/ROC_curves.png" width="500"/> 
  
    * Plot bar showing the feature importance and the correlation of each attribute with the target:
   
  <img src="figures/importance_vs_corr_RFC.png" height="250" width="450"/> 
+ 
+ Finally I built a Neural Network(NN) to see how it would perform for this particular problem. As It can be seen in the confussion matrixes below, the ensemble model(left) performed better thatn the NN (Rigth). Not surprising, since NN often show their potential in large datasets.
+ 
+  <img src="figures/corr_mat.png" width="400"/> <img src="figures/corr_mat_NN.png" width="400"/> 
 
 
 # [Project 3: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
