@@ -43,7 +43,7 @@ Below are some images associated to the evaluation of such model against the tes
   
  <img src="figures/importance_vs_corr_RFC.png" height="250" width="450"/> 
  
- * Finally I built a **Neural Network(NN)** to see how it would perform for this particular problem. As It can be seen in the confussion matrixes below, the ensemble model(left), overall performed better that the NN (Rigth). Nontheless, not a bad job from the NN, considering that they often show their potential in large datasets.
+ * Lastly, I built a **Neural Network(NN)** to see how it would perform for this particular problem. As It can be seen in the confussion matrixes below, the ensemble model(left), overall performed better that the NN (Rigth). Nontheless, not a bad job from the NN, considering that they often show their potential in large datasets.
  
   <img src="figures/corr_mat_ensemble.png" width="400"/> <img src="figures/corr_matx_NN.png" width="400"/> 
 
