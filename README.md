@@ -68,7 +68,7 @@ Supervised ML **regression problem** -> Predicting house rental prices
 
 <img src="figures/hist_boxcox.png" width="600"/>
 
-<img src="figures/corr.png" width="500"/>
+<img src="figures/corr.png" width="600"/>
 
 
 # [Project 4: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
