@@ -1,5 +1,5 @@
 # Enrique_portfolio
-A summary of my data science projects
+A summary of my data science projects.
 
 
 # [Project 1: Bike Usage Estimator](https://github.com/EnriqueSPR/Bicycle_Rental_Company)
