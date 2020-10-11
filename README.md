@@ -3,7 +3,7 @@ A summary of my data science projects.
 
 
 # [Project 1: Bike Usage Estimator](https://github.com/EnriqueSPR/Bicycle_Rental_Company)
-Supervised ML **regression problem** -> Predicting bike usage at a given day for a bike company.
+Supervised ML **regression problem** -> Predicting bike user usage for a bike company.
 
 **Description**: The aim is to use the [data from the past 10 years](https://www.capitalbikeshare.com/system-data) to develop a model that can predict bicycle usage (Number of trips and total time ride usage) at a given day.
 
@@ -50,7 +50,7 @@ Lastly, I built a **Neural Network(NN)** to see how it would perform for this pa
 
 
 # [Project 3: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
-Supervised ML **regression problem** -> Predicting house rental prices
+Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
 * Scraped over 2000 house rent information from https://www.pisos.com/ using python and the beautifulsoup library.
@@ -73,7 +73,7 @@ Supervised ML **regression problem** -> Predicting house rental prices
 
 
 # [Project 4: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
-Supervised ML **regression problem** -> Predicting salary of data scientist
+Supervised ML **regression problem** -> Predicting salary of data scientist in USA
 
 * Created a tool that estimates data science salaries to help data scientists negotiate their income when they get a job.
 
