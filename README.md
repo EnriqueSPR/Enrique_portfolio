@@ -35,11 +35,11 @@ Three good performing models(SVC, RFC and ETC) were chosed, tuned and ensembled 
 This resukted in a balanced model that performed satisfactorily in both the test and training sets.
 Below are some images associated to the evaluation of such model against the test set (**0.64 accuracy**).
 
-  * ROC curves for classes 2 and 3:
+  * **ROC curves** for classes 2 and 3:
   
  <img src="figures/ROC_curves.png" width="500"/> 
  
-   * Plot bar showing the feature importance and the correlation of each attribute with the target:
+   * Plot bar showing the **feature importance** and the correlation of each attribute with the target:
   
  <img src="figures/importance_vs_corr_RFC.png" height="250" width="450"/> 
  
@@ -53,19 +53,19 @@ Lastly, I built a **Neural Network(NN)** to see how it would perform for this pa
 Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
-* Scraped over 2000 house rent information from https://www.pisos.com/ using python and the beautifulsoup library.
+* **Scraped over 2000 house rent information** from https://www.pisos.com/ using python and the beautifulsoup library.
 
-* Performed data cleaning steps and removed outliers.
+* Performed **data cleaning** steps and removed outliers.
 
-* Exploratory Data Analyses shed light into the most important parameters driving house prices in Spain. These parameters were chosen in the model building process.
+* **Exploratory Data Analyses** shed light into the most important parameters driving house prices in Spain. These parameters were chosen in the model building process.
 
-* Optimized Linear, Lasso, Decission Tree, Random Forest, Support Vector Regressors using GridsearchCV to find the best model.
+* Optimized Linear, Lasso, Decission Tree, Random Forest, Support Vector Regressors using GridsearchCV to **find the best model**.
 
 * SVR was chosen as the most promissing and tuned using GridSearchCV, achieving a score of **0.84** accuracy against the test set.
 
-* Wrote a python flask server that uses the saved model to serve http requests.
+* Wrote a python **flask server** that uses the saved model to serve http requests.
 
-* Built a website in html, css and javascript that allows user to predict rental prices in Madrid.
+* Built a **website** in html, css and javascript that allows user to predict rental prices in Madrid.
 
 <img src="figures/hist_boxcox.png" width="600"/>
 
@@ -77,13 +77,13 @@ Supervised ML **regression problem** -> Predicting salary of data scientist in U
 
 * Created a tool that estimates data science salaries to help data scientists negotiate their income when they get a job.
 
-* Scraped over 1000 job descriptions from glassdoor using python and selenium.
+* **Scraped** over 1000 job descriptions from glassdoor using python and selenium.
 
-* Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark.
+* **Engineered features** from the text of each job description to quantify the value companies put on python, excel, aws, and spark.
 
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model(MAE=12.8 with RFR).
+* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the **best model(MAE=12.8 with RFR)**.
 
-* Built a client facing API using flask
+* Built a client facing **API** using flask
 
 <img src="figures/bar_subplots_ax1_ax2.png" width="600"/>
 
@@ -91,15 +91,15 @@ Supervised ML **regression problem** -> Predicting salary of data scientist in U
 # [Project 5: Data Science Price Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_pricing_madrid)
 Supervised ML **regression problem** -> Predicting house prices in Madrid
 
-* Created a tool that estimates prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
+* Created a **tool that estimates prices** from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
-* Performed data cleaning steps and removed outliers.
+* Performed **data cleaning** steps and removed outliers.
 
-* Exploratory Data Analyses shed light into the most important parameters driving house prices in Spain.These parameters were chosen in the model building process.
+* **Exploratory Data Analyses** shed light into the most important parameters driving house prices in Spain.These parameters were chosen in the model building process.
 
 * Optimized Linear, Decission Tree, and Random Forest Regressors using GridsearchCV to reach the best model (**0.89 for RFR**).
 
-* Built a client facing API using flask.
+* Built a client facing **API** using flask.
 
 <img src="figures/random_forest_data.png" width="600"/>
 
@@ -109,20 +109,20 @@ Supervised ML **regression problem** -> Predicting house prices in Madrid
 # [Project 6: Tennis Match Predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
 Supervised ML **binary classification problem** -> Predicting tennis matches outcome
 
-* The goal of this project was to create an algorithm using supervised machine learning to predict the outcome of tennis matches by taking in account information from the players form before the match.
+* The goal of this project was to train an algorithm using supervised machine learning to predict the outcome of tennis matches by taking in account information from the players form before the match.
 
-* I scrapped the data from ATP tournaments, matches and players from 1999 to 2020.
+* I **scrapped the data** from ATP tournaments, matches and players from 1999 to 2020.
 
-* I performed data cleaning steps and feature engineering to create information of the players form at the moment of the upcoming match.
+* I performed **data cleaning** steps and **feature engineering** to generate information of the players form at the moment of the upcoming match.
 
-* Exploratory data analyses were carried out to get insight into the features correlation and distribution. This allowed to select the most relevant features for the model.
+* Exploratory data analyses were carried out to get insight into the features **correlation** and **distribution**. This allowed to select the most relevant features for the model.
 
 * I tested diferent algorithms capable of working on this classification problem:
 
-  * Linear Algorithms: Logistic Regression (LR) and Linear Discriminant Analysis (LDA).
-  * Nonlinear Algorithms: Classification and Regression Trees (CART), Support Vector Machines (SVM), Gaussian Naive Bayes (NB) and k-Nearest Neighbors (KNN).
+  * **Linear Algorithms**: Logistic Regression (LR) and Linear Discriminant Analysis (LDA).
+  * **Nonlinear Algorithms**: Classification and Regression Trees (CART), Support Vector Machines (SVM), Gaussian Naive Bayes (NB) and k-Nearest Neighbors (KNN).
   
-* Linear Regression models preformed better in this case, and were chosen for further tunning. 
+* Linear Regression models preformed better in this case, and were chosen for further **tunning**. 
 
 
 <img src="figures/alg_comparisson.png" width="300"/>    <img src="figures/Model_Performance.png" width="200"/>
@@ -130,7 +130,7 @@ Supervised ML **binary classification problem** -> Predicting tennis matches out
 
 # [Project 7: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project)
 
-In this notebook I focused on analyzing covid data in an effort to better understand the main factors that drive the spread of this virus and to forecast the evolution of the pandemia.
+In this notebook I focused on analyzing covid data in an effort to better understand the main **factors that drive the spread of this virus** and to forecast the evolution of the pandemia.
 
 Below I include few highlight figures.
 
@@ -146,8 +146,33 @@ Below I include few highlight figures.
 
 <img src="figures/Total_Deaths_Per_Million.png" width="600"/>
 
-
 <img src="figures/interactive_chart_cases_deaths.png" width="500"/>
 
+# [Project 8: BoardGames EDA project](https://github.com/EnriqueSPR/board_games_EDA_project)
 
+An EDA project in which a board game database is analysed to investigate **what factors drive sales for these products**.
 
+ I aimed to aswer the following questions:
+ 
+ * What games people buy/own the most?
+ 
+  <img src="figures/type_of_game_owners.png" width="400"/> 
+  
+  * What type of games most succesfull companies sell?
+  
+  <img src="figures/pie_chart_games.png" width="300"/> 
+  
+  *  What game difficulty people prefer to buy/own?
+  
+  <img src="figures/game_level.png" width="300"/> 
+  
+  * What games have been sold most times?
+  
+   <img src="figures/yearpub_gamessold.png" width="400"/> 
+
+Some of the interesting insights we got from these analyses is that **games with a high number of sales** are most likely: 
+ * **Card games** 
+ * With a **medium level of difficulty**.
+ * **High minimum age**
+ * With **no time or player restrains**.
+ * **Expansions** (Normal, since they are well-stablished games)
