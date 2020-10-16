@@ -166,7 +166,7 @@ An EDA project in which a board game database is analysed to investigate **what 
   
   <img src="figures/game_level.png" width="250"/> 
   
-  * What games have been sold most times?
+  * What games have been sold most units?
   
    <img src="figures/yearpub_gamessold.png" width="400"/> 
 
