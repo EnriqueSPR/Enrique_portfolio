@@ -5,7 +5,7 @@ A summary of my data science projects.
 
 Supervised ML **regression problem** -> Predicting bike user usage for a bike company.
 
-[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/Bicycle_Rental_Company/blob/master/Bike_count_predictor.ipynb)
+[**See full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/Bicycle_Rental_Company/blob/master/Bike_count_predictor.ipynb)
 
 **Description**: The aim is to use the [data from the past 10 years](https://www.capitalbikeshare.com/system-data) to develop a model that can predict bicycle usage (Number of trips and total time ride usage) at a given day.
 
@@ -30,7 +30,7 @@ For this cross-validation was performed and negative mean squared error was used
 # [Project 2: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
 Supervised ML **Multi-classification  problem** -> Predicting wine quality
 
-[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/red_wine_quality/blob/master/red_wine.ipynb)
+[**See full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/red_wine_quality/blob/master/red_wine.ipynb)
 
 In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
 
@@ -57,6 +57,7 @@ Lastly, I built a **Neural Network(NN)** to see how it would perform for this pa
 
 Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 
+[**See full code here.**](https://github.com/EnriqueSPR/house_renting_madrid/blob/master/model/Madrid_house_rental.ipynb)
 
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
