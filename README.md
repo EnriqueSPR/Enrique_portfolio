@@ -1,9 +1,11 @@
 # Enrique_portfolio
 A summary of my data science projects.
 
-
 # [Project 1: Bike Usage Estimator](https://github.com/EnriqueSPR/Bicycle_Rental_Company)
+
 Supervised ML **regression problem** -> Predicting bike user usage for a bike company.
+
+[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/Bicycle_Rental_Company/blob/master/Bike_count_predictor.ipynb)
 
 **Description**: The aim is to use the [data from the past 10 years](https://www.capitalbikeshare.com/system-data) to develop a model that can predict bicycle usage (Number of trips and total time ride usage) at a given day.
 
@@ -28,6 +30,8 @@ For this cross-validation was performed and negative mean squared error was used
 # [Project 2: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
 Supervised ML **Multi-classification  problem** -> Predicting wine quality
 
+[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/red_wine_quality/blob/master/red_wine.ipynb)
+
 In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
 
 Following analyses of feature distribution and data prepocessing, several classification models were trained and their performance assessed.
@@ -50,7 +54,10 @@ Lastly, I built a **Neural Network(NN)** to see how it would perform for this pa
 
 
 # [Project 3: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
+
 Supervised ML **regression problem** -> Predicting house rental prices in Madrid
+
+
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
 * **Scraped over 2000 house rent information** from https://www.pisos.com/ using python and the beautifulsoup library.
@@ -73,7 +80,10 @@ Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 
 
 # [Project 4: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
+
 Supervised ML **regression problem** -> Predicting salary of data scientist in USA
+
+
 
 * Created a tool that estimates data science salaries to help data scientists negotiate their income when they get a job.
 
@@ -91,6 +101,8 @@ Supervised ML **regression problem** -> Predicting salary of data scientist in U
 # [Project 5: Data Science Price Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_pricing_madrid)
 Supervised ML **regression problem** -> Predicting house prices in Madrid
 
+[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/house_pricing_madrid/blob/master/Model/house_price_project_removed_outliers.ipynb)
+
 * Created a **tool that estimates prices** from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
 * Performed **data cleaning** steps and removed outliers.
@@ -107,7 +119,10 @@ Supervised ML **regression problem** -> Predicting house prices in Madrid
 
 
 # [Project 6: Tennis Match Predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
+
 Supervised ML **binary classification problem** -> Predicting tennis matches outcome
+
+[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/tennis_match_predictor/blob/master/tennis_p.ipynb)
 
 * The goal of this project was to train an algorithm using supervised machine learning to predict the outcome of tennis matches by taking in account information from the players form before the match.
 
@@ -132,6 +147,8 @@ Supervised ML **binary classification problem** -> Predicting tennis matches out
 
 In this notebook I focused on analyzing covid data in an effort to better understand the main **factors that drive the spread of this virus** and to forecast the evolution of the pandemia.
 
+[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/covid_EDA_project/blob/master/covid_EDA_project.ipynb)
+
 Below I include few highlight figures.
 
 * Plots showing the top 5 countries affected in the world by cumulative cases and deaths every 2 weeks:
@@ -151,6 +168,8 @@ Below I include few highlight figures.
 # [Project 8: BoardGames EDA project](https://github.com/EnriqueSPR/board_games_EDA_project)
 
 An EDA project in which a board game database is analysed to investigate **what factors drive sales for these products**.
+
+[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/board_games_EDA_project/blob/main/BoardGames.ipynb)
 
  I aimed to aswer the following questions:
  
