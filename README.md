@@ -5,7 +5,7 @@ A summary of my data science projects.
 
 Supervised ML **regression problem** -> Predicting bike user usage for a bike company.
 
-[**See full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/Bicycle_Rental_Company/blob/master/Bike_count_predictor.ipynb)
+[**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/Bicycle_Rental_Company/blob/master/Bike_count_predictor.ipynb)
 
 **Description**: The aim is to use the [data from the past 10 years](https://www.capitalbikeshare.com/system-data) to develop a model that can predict bicycle usage (Number of trips and total time ride usage) at a given day.
 
@@ -30,7 +30,7 @@ For this cross-validation was performed and negative mean squared error was used
 # [Project 2: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
 Supervised ML **Multi-classification  problem** -> Predicting wine quality
 
-[**See full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/red_wine_quality/blob/master/red_wine.ipynb)
+[**See published full code here..**](https://nbviewer.jupyter.org/github/EnriqueSPR/red_wine_quality/blob/master/red_wine.ipynb)
 
 In this project we will tackle a multi-classification problem using supervised ML on a well known dataset about red wine quality. See here. This dataset contains quality parameters for 1596 red-wines, which we can use to build a model that predicts red wine quality (Classifies it on a scale from 0 to 5).
 
@@ -57,7 +57,7 @@ Lastly, I built a **Neural Network(NN)** to see how it would perform for this pa
 
 Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 
-[**See full code here.**](https://github.com/EnriqueSPR/house_renting_madrid/blob/master/model/Madrid_house_rental.ipynb)
+[**See published full code here.**](https://github.com/EnriqueSPR/house_renting_madrid/blob/master/model/Madrid_house_rental.ipynb)
 
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
@@ -102,7 +102,7 @@ Supervised ML **regression problem** -> Predicting salary of data scientist in U
 # [Project 5: Data Science Price Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_pricing_madrid)
 Supervised ML **regression problem** -> Predicting house prices in Madrid
 
-[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/house_pricing_madrid/blob/master/Model/house_price_project_removed_outliers.ipynb)
+[**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/house_pricing_madrid/blob/master/Model/house_price_project_removed_outliers.ipynb)
 
 * Created a **tool that estimates prices** from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
@@ -123,7 +123,7 @@ Supervised ML **regression problem** -> Predicting house prices in Madrid
 
 Supervised ML **binary classification problem** -> Predicting tennis matches outcome
 
-[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/tennis_match_predictor/blob/master/tennis_p.ipynb)
+[**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/tennis_match_predictor/blob/master/tennis_p.ipynb)
 
 * The goal of this project was to train an algorithm using supervised machine learning to predict the outcome of tennis matches by taking in account information from the players form before the match.
 
@@ -148,7 +148,7 @@ Supervised ML **binary classification problem** -> Predicting tennis matches out
 
 In this notebook I focused on analyzing covid data in an effort to better understand the main **factors that drive the spread of this virus** and to forecast the evolution of the pandemia.
 
-[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/covid_EDA_project/blob/master/covid_EDA_project.ipynb)
+[**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/covid_EDA_project/blob/master/covid_EDA_project.ipynb)
 
 Below I include few highlight figures.
 
@@ -170,7 +170,7 @@ Below I include few highlight figures.
 
 An EDA project in which a board game database is analysed to investigate **what factors drive sales for these products**.
 
-[**See code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/board_games_EDA_project/blob/main/BoardGames.ipynb)
+[**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/board_games_EDA_project/blob/main/BoardGames.ipynb)
 
  I aimed to aswer the following questions:
  
