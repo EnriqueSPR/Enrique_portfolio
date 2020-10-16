@@ -142,7 +142,7 @@ Below I include few highlight figures.
 
 <img src="figures/perc_deaths_country.png" width="300"/><img src="figures/population_aged70_country.png" width="300"/><img src="figures/test_rates_country.png" width="300"/> 
 
-* Screenshots of the interactive plots generated with Bokeh and Plotly:
+* Screenshots of the interactive plots generated with **Bokeh** and **Plotly**:
 
 <img src="figures/Total_Deaths_Per_Million.png" width="600"/>
 
