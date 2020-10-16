@@ -164,7 +164,7 @@ An EDA project in which a board game database is analysed to investigate **what 
   
   *  What game difficulty people prefer to buy/own?
   
-  <img src="figures/game_level.png" width="300"/> 
+  <img src="figures/game_level.png" width="250"/> 
   
   * What games have been sold most times?
   
