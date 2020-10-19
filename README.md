@@ -57,7 +57,7 @@ Lastly, I built a **Neural Network(NN)** to see how it would perform for this pa
 
 Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 
-[**See published full code here.**](https://github.com/EnriqueSPR/house_renting_madrid/blob/master/model/Madrid_house_rental.ipynb)
+[**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/house_renting_madrid/blob/master/model/Madrid_house_rental.ipynb)
 
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
@@ -84,7 +84,7 @@ Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 
 Supervised ML **regression problem** -> Predicting salary of data scientist in USA
 
-
+[**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/prediction_salary_project/blob/master/salary_prediction_project.ipynb)
 
 * Created a tool that estimates data science salaries to help data scientists negotiate their income when they get a job.
 
