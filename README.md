@@ -1,12 +1,14 @@
 # Enrique_portfolio
+
 A summary of my data science projects.
+
 # [Project 1: Car Prices Estimator](https://github.com/EnriqueSPR/second_hand_cars_project)
 
 Supervised ML **regression problem** -> An end-to-end project in which I scrape , prepare, analyse the data and find a model to predict second hard prices cars in Spain.
 
 [**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/second_hand_cars_project/blob/main/car_project.ipynb)
 
-1) **Scraped 40000 second hand cars** from [Milanuncios](https://www.milanuncios.com/coches-de-segunda-mano/?fromSearch=1&orden=relevance&pagina=1). One of the most famous second-hand online pages in Spain. 🚗🚓🚕💨
+1) **Scraped 40000 second hand cars** from [Milanuncios](https://www.milanuncios.com/coches-de-segunda-mano/?fromSearch=1&orden=relevance&pagina=1). One of the most famous second-hand online pages in Spain. 🚗🚓🚕🚙💨
 
 2) **Cleaned** and **prepared the data**. 🔄
 
@@ -29,7 +31,7 @@ See some highlight pictures below:
 
 # [Project 2: Bike Usage Estimator](https://github.com/EnriqueSPR/Bicycle_Rental_Company)
 
-Supervised ML **regression problem** -> Predicting bike user usage for a bike company.
+Supervised ML **regression problem** -> Predicting bike user usage for a bike company. 🚲🚲☔🌞🕒
 
 [**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/Bicycle_Rental_Company/blob/master/Bike_count_predictor.ipynb)
 
@@ -168,7 +170,6 @@ Supervised ML **binary classification problem** -> Predicting tennis matches out
   
 * Linear Regression models preformed better in this case, and were chosen for further **tunning**. 
 
-
 <img src="figures/alg_comparisson.png" width="300"/>    <img src="figures/Model_Performance.png" width="200"/>
 
 
@@ -193,6 +194,7 @@ Below I include few highlight figures.
 <img src="figures/Total_Deaths_Per_Million.png" width="600"/>
 
 <img src="figures/interactive_chart_cases_deaths.png" width="500"/>
+
 
 # [Project 9: BoardGames EDA project](https://github.com/EnriqueSPR/board_games_EDA_project) 🎭🎲🎴♠🧩
 
