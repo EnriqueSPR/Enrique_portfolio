@@ -54,7 +54,8 @@ For this cross-validation was performed and negative mean squared error was used
 
 
 # [Project 3: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
-Supervised ML **Multi-classification  problem** -> Predicting wine quality
+
+Supervised ML **Multi-classification  problem** -> Predicting wine quality 🍷⭐⭐⭐⭐⭐
 
 [**See published full code here..**](https://nbviewer.jupyter.org/github/EnriqueSPR/red_wine_quality/blob/master/red_wine.ipynb)
 
@@ -81,7 +82,7 @@ Lastly, I built a **Neural Network(NN)** to see how it would perform for this pa
 
 # [Project 4: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
 
-Supervised ML **regression problem** -> Predicting house rental prices in Madrid
+Supervised ML **regression problem** -> Predicting house rental prices in Madrid 🏘💲💲🏚🏠💲⛪💲🏙
 
 [**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/house_renting_madrid/blob/master/model/Madrid_house_rental.ipynb)
 
@@ -108,7 +109,7 @@ Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 
 # [Project 5: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
 
-Supervised ML **regression problem** -> Predicting salary of data scientist in USA
+Supervised ML **regression problem** -> Predicting salary of data scientist in USA 💲📊👀
 
 [**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/prediction_salary_project/blob/master/salary_prediction_project.ipynb)
 
@@ -126,7 +127,8 @@ Supervised ML **regression problem** -> Predicting salary of data scientist in U
 
 
 # [Project 6: Data Science Price Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_pricing_madrid)
-Supervised ML **regression problem** -> Predicting house prices in Madrid
+
+Supervised ML **regression problem** -> Predicting house prices in Madrid 🏘💲💲🏚🏠💲⛪💲🏙
 
 [**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/house_pricing_madrid/blob/master/Model/house_price_project_removed_outliers.ipynb)
 
@@ -147,7 +149,7 @@ Supervised ML **regression problem** -> Predicting house prices in Madrid
 
 # [Project 7: Tennis Match Predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
 
-Supervised ML **binary classification problem** -> Predicting tennis matches outcome
+Supervised ML **binary classification problem** -> Predicting tennis matches outcome 🥎🎾🏆
 
 [**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/tennis_match_predictor/blob/master/tennis_p.ipynb)
 
@@ -170,7 +172,7 @@ Supervised ML **binary classification problem** -> Predicting tennis matches out
 <img src="figures/alg_comparisson.png" width="300"/>    <img src="figures/Model_Performance.png" width="200"/>
 
 
-# [Project 8: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project)
+# [Project 8: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project) 🦇
 
 In this notebook I focused on analyzing covid data in an effort to better understand the main **factors that drive the spread of this virus** and to forecast the evolution of the pandemia.
 
@@ -192,7 +194,7 @@ Below I include few highlight figures.
 
 <img src="figures/interactive_chart_cases_deaths.png" width="500"/>
 
-# [Project 9: BoardGames EDA project](https://github.com/EnriqueSPR/board_games_EDA_project)
+# [Project 9: BoardGames EDA project](https://github.com/EnriqueSPR/board_games_EDA_project) 🎭🎲🎴♠🧩
 
 An EDA project in which a board game database is analysed to investigate **what factors drive sales for these products**.
 
