@@ -18,7 +18,7 @@ See some highlight pictures below:
 
 <img src="figures/2nd_hand_cars_map_closeup.png" width="600"/>
 
-* 3D plot to analyze models popularity, reliability or economy:
+* 3D plot to analyze models **popularity, reliability or economy**:
 
 <img src="figures/3D_car_models.png" width="600"/>
 
