@@ -1,7 +1,33 @@
 # Enrique_portfolio
 A summary of my data science projects.
+# [Project 1: Car Prices Estimator](https://github.com/EnriqueSPR/second_hand_cars_project)
 
-# [Project 1: Bike Usage Estimator](https://github.com/EnriqueSPR/Bicycle_Rental_Company)
+Supervised ML **regression problem** -> An end-to-end project in which I scrape , prepare, analyse the data and find a model to predict second hard prices cars in Spain.
+
+[**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/second_hand_cars_project/blob/main/car_project.ipynb)
+
+1) **Scraped 40000 second hand cars** from [Milanuncios](https://www.milanuncios.com/coches-de-segunda-mano/?fromSearch=1&orden=relevance&pagina=1). One of the most famous second-hand online pages in Spain. 🚗🚓🚕💨
+
+2) **Cleaned** and **prepared the data**. 🔄
+
+3) **Analyzed the data** to answer questions such, in what cities can we find the best deals? or What models are most popular or reliable? 📈📊
+
+See some highlight pictures below:
+
+* Mapping prices of second hand adds in Spain: area of the circles is proportional to the **number of adds**, whereas the color gives us information of the median **prices**. 
+
+<img src="figures/2nd_hand_cars_map_closeup.png" width="600"/>
+
+* 3D plot to analyze models popularity, reliability or economy:
+
+<img src="figures/3D_car_models.png" width="600"/>
+
+4) Trained an algo to **predict the price** of second hand cars. **Score = 0.93**. 💲
+
+<img src="figures/perfect_prediction_cars.png" width="600"/>
+
+
+# [Project 2: Bike Usage Estimator](https://github.com/EnriqueSPR/Bicycle_Rental_Company)
 
 Supervised ML **regression problem** -> Predicting bike user usage for a bike company.
 
@@ -27,7 +53,7 @@ For this cross-validation was performed and negative mean squared error was used
 <img src="figures/Pair-kde.png" width="1000"/>
 
 
-# [Project 2: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
+# [Project 3: Redwine Quality Predictor](https://github.com/EnriqueSPR/red_wine_quality)
 Supervised ML **Multi-classification  problem** -> Predicting wine quality
 
 [**See published full code here..**](https://nbviewer.jupyter.org/github/EnriqueSPR/red_wine_quality/blob/master/red_wine.ipynb)
@@ -53,7 +79,7 @@ Lastly, I built a **Neural Network(NN)** to see how it would perform for this pa
   <img src="figures/corr_mat_ensemble.png" width="400"/> <img src="figures/corr_matx_NN.png" width="400"/> 
 
 
-# [Project 3: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
+# [Project 4: Data Science Rental Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_renting_madrid)
 
 Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 
@@ -80,7 +106,7 @@ Supervised ML **regression problem** -> Predicting house rental prices in Madrid
 <img src="figures/corr.png" width="600"/>
 
 
-# [Project 4: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
+# [Project 5: Data Science Salary Estimator](https://github.com/EnriqueSPR/ds_salary_project)
 
 Supervised ML **regression problem** -> Predicting salary of data scientist in USA
 
@@ -99,7 +125,7 @@ Supervised ML **regression problem** -> Predicting salary of data scientist in U
 <img src="figures/bar_subplots_ax1_ax2.png" width="600"/>
 
 
-# [Project 5: Data Science Price Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_pricing_madrid)
+# [Project 6: Data Science Price Estimator from Houses in Madrid](https://github.com/EnriqueSPR/house_pricing_madrid)
 Supervised ML **regression problem** -> Predicting house prices in Madrid
 
 [**See published full code here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/house_pricing_madrid/blob/master/Model/house_price_project_removed_outliers.ipynb)
@@ -119,7 +145,7 @@ Supervised ML **regression problem** -> Predicting house prices in Madrid
 <img src="figures/Prediction_Tool_Screenshot.png" width="400"/>
 
 
-# [Project 6: Tennis Match Predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
+# [Project 7: Tennis Match Predictor](https://github.com/EnriqueSPR/tennis_match_predictor)
 
 Supervised ML **binary classification problem** -> Predicting tennis matches outcome
 
@@ -144,7 +170,7 @@ Supervised ML **binary classification problem** -> Predicting tennis matches out
 <img src="figures/alg_comparisson.png" width="300"/>    <img src="figures/Model_Performance.png" width="200"/>
 
 
-# [Project 7: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project)
+# [Project 8: Covid EDA project](https://github.com/EnriqueSPR/Covid_EDA_Project)
 
 In this notebook I focused on analyzing covid data in an effort to better understand the main **factors that drive the spread of this virus** and to forecast the evolution of the pandemia.
 
@@ -166,7 +192,7 @@ Below I include few highlight figures.
 
 <img src="figures/interactive_chart_cases_deaths.png" width="500"/>
 
-# [Project 8: BoardGames EDA project](https://github.com/EnriqueSPR/board_games_EDA_project)
+# [Project 9: BoardGames EDA project](https://github.com/EnriqueSPR/board_games_EDA_project)
 
 An EDA project in which a board game database is analysed to investigate **what factors drive sales for these products**.
 
