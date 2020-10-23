@@ -2,7 +2,7 @@
 
 A summary of my data science projects.
 
-# [Project 1: Car Prices Estimator](https://github.com/EnriqueSPR/second_hand_cars_project) 🚗🚓🚕🚙💨
+# [Project 1: Car Price Estimator](https://github.com/EnriqueSPR/second_hand_cars_project) 🚗🚓🚕🚙💨
 
 Supervised ML **regression problem** -> An end-to-end project in which I scrape , prepare, analyse the data and find a model to predict second hard prices cars in Spain.
 
